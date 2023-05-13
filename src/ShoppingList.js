@@ -47,7 +47,7 @@ export class ShoppingList extends Component {
                     <ul>
                         { this.state.shoppingList.map((item, index) => (
                             <li onClick = { this.crossedWord } key= { index }>
-                                <img src= { image } alt="bag" width="40px" />{ item }</li>
+                                <img src= { image } alt="bag" width="30px" />{ item }</li>
                         ))}
                     </ul>
                 </div>
