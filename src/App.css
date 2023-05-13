@@ -4,7 +4,7 @@ body {
 .app{
   background: white;
   min-height: 80vh;
-  width: 400px;
+  max-width: 400px;
   margin: 20px auto;
 }
 .crossed{
